@@ -28,13 +28,13 @@ function Skills() {
                         />
                         <ProgressBar 
                             title={'NODE.JS'}
-                            width={'60%'}
-                            text={'60%'}
+                            width={'75%'}
+                            text={'75%'}
                         />
                         <ProgressBar 
                             title={'PYTHON'}
-                            width={'70%'}
-                            text={'70%'}
+                            width={'50%'}
+                            text={'50%'}
                             
                         />
                         <ProgressBar 
@@ -44,13 +44,13 @@ function Skills() {
                         />
                         <ProgressBar 
                             title={'DJANGO'}
-                            width={'75%'}
-                            text={'75%'}
+                            width={'70%'}
+                            text={'70%'}
                         />
                         <ProgressBar 
                             title={'DJANGO REST FRAMEWORK'}
-                            width={'80%'}
-                            text={'80%'}
+                            width={'75%'}
+                            text={'75%'}
                         />
 
                     

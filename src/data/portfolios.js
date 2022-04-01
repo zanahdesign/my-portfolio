@@ -1,9 +1,15 @@
 import trivia from '../img/portImages/trivia.JPG';
-import react1 from '../img/portImages/react_styled.png';
 import gifs from '../img/portImages/gifs.JPG';
 import blender from '../img/portImages/blender.JPG';
 import quotes from '../img/portImages/quotes.JPG';
-import img3 from '../img/portImages/maya-3.jpg';
+import cars from '../img/portImages/cars.JPG';
+import todo from '../img/portImages/to-do.JPG';
+import camilo from '../img/portImages/camilo.JPG';
+import pokemon from '../img/portImages/pokemon.JPG'
+import clock from '../img/portImages/clock.JPG'
+import recipes from '../img/portImages/recipes.JPG'
+import breaking from '../img/portImages/breaking.JPG'
+import weather from '../img/portImages/weather.JPG'
 
 const portfolios = [
     {
@@ -36,45 +42,29 @@ const portfolios = [
     {
         id: 4,
         category: 'MERN',
-        image: img3,
+        image: blender,
         link1: 'https://www.google.com',
         link2: 'https://www.google.com',
         title: 'How To Animate In Maya',
         text: 'Number one Animation Application'
     },
-    {
-        id: 5,
-        category: 'Python',
-        image: gifs,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
-    {
-        id: 6,
-        category: 'Python',
-        image: gifs,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
+    
+    
     {
         id: 7,
-        category: 'Django',
-        image: react1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Portfolio Website',
-        text: 'Created using different technologies such as Material UI, Styled-Components and more...'
+        category: 'Django-HTML5',
+        image: camilo,
+        link1: 'https://github.com/garciapulidoerika/portfolio-dj',
+        link2: 'https://porfolio-django.herokuapp.com/',
+        title: 'Editable Portfolio with Django',
+        text: 'Created using Django, HTML5, JS, CSS, Heroku.'
     },
     {
         id: 8,
         category: 'Django-React',
-        image: react1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
+        image: blender,
+        link1: 'https:',
+        link2: 'https:',
         title: 'Responsive Portfolio Website',
         text: 'Created using different technologies such as Material UI, Styled-Components and more...'
     },
@@ -86,6 +76,73 @@ const portfolios = [
         link2: 'https://nice-quotes.netlify.app/',
         title: 'Random Quotes',
         text: 'Consuming an API with React.'
+    },
+
+    {
+        id: 10,
+        category: 'Js Vanilla',
+        image: cars,
+        link1: 'https://github.com/garciapulidoerika/Cars',
+        link2: 'https://crud-cars-store.netlify.app/',
+        title: 'Cars, simple-CRUD',
+        text: 'Simple app without LocalStorage'
+    },
+
+    {
+        id: 11,
+        category: 'Js Vanilla',
+        image: todo,
+        link1: 'https://github.com/garciapulidoerika/simple-todo',
+        link2: 'https://app.netlify.com/sites/simple-to-do-js/settings/domain',
+        title: 'Simple TO-DO',
+        text: 'To-do list without LocalStorage'
+    },
+
+    {
+        id: 12,
+        category: 'Js Vanilla',
+        image: pokemon,
+        link1: 'https://github.com/garciapulidoerika/Pokemon-game-JsVanilla-Api',
+        link2: 'https://pokemon-game-vanilla-api.netlify.app/',
+        title: 'Pokemon-Game',
+        text: 'Js app consuming API'
+    },
+    {
+        id: 13,
+        category: 'Js Vanilla',
+        image: clock,
+        link1: 'https://github.com/garciapulidoerika/clock-JS-Vanilla-',
+        link2: 'https://a-clock-js.netlify.app/',
+        title: 'Clock',
+        text: 'Js app'
+    },
+
+    {
+        id: 14,
+        category: 'Js Vanilla',
+        image: recipes,
+        link1: 'https://github.com/garciapulidoerika/Recipes-Js-using-API',
+        link2: 'https://recipes-consuming-api.netlify.app/',
+        title: 'Recipes App',
+        text: 'Js app consuming an API'
+    },
+    {
+        id: 15,
+        category: 'React',
+        image: breaking,
+        link1: 'https://github.com/garciapulidoerika/breaking-bad-API',
+        link2: 'https://breaking-bad-api-quotes.netlify.app/',
+        title: 'Breaking Bad Quotes App',
+        text: 'React app consuming an API'
+    },
+    {
+        id: 16,
+        category: 'React',
+        image: weather,
+        link1: 'https://github.com/garciapulidoerika/Weather',
+        link2: 'https://weather-app-geolocation-react.netlify.app/',
+        title: 'Weather Geolocation App',
+        text: 'React app consuming an API'
     },
     
 ]
