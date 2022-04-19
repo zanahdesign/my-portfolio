@@ -10,6 +10,8 @@ import clock from '../img/portImages/clock.JPG'
 import recipes from '../img/portImages/recipes.JPG'
 import breaking from '../img/portImages/breaking.JPG'
 import weather from '../img/portImages/weather.JPG'
+import dogs from '../img/portImages/dogs.JPG'
+import rick from '../img/portImages/rick-and-morty.JPG'
 
 const portfolios = [
     {
@@ -24,12 +26,46 @@ const portfolios = [
     {
         id: 2,
         category: 'Js Vanilla',
-        image: blender,
-        link1: 'https://github.com/garciapulidoerika/Blender-animation',
-        link2: 'https://blender-animation.netlify.app/',
-        title: 'Blender-Animation',
-        text: 'Animation with JS, HTML and CSS.'
+        image: recipes,
+        link1: 'https://github.com/garciapulidoerika/Recipes-Js-using-API',
+        link2: 'https://recipes-consuming-api.netlify.app/',
+        title: 'Recipes App',
+        text: 'Js app consuming an API'
     },
+
+    {
+        id: 12,
+        category: 'Js Vanilla',
+        image: pokemon,
+        link1: 'https://github.com/garciapulidoerika/Pokemon-game-JsVanilla-Api',
+        link2: 'https://pokemon-game-vanilla-api.netlify.app/',
+        title: 'Pokemon-Game',
+        text: 'Js app consuming API'
+    },
+
+    
+    {
+        id: 18,
+        category: 'React',
+        image: rick,
+        link1: 'https://github.com/garciapulidoerika/Rick-and-Morty-App',
+        link2: 'https://rick-and-morty-app-with-api.netlify.app/',
+        title: 'Rick and Morty APP with API',
+        text: 'React app consuming an API'
+    },
+
+    {
+        id: 7,
+        category: 'Py-Django-HTML5',
+        image: camilo,
+        link1: 'https://github.com/garciapulidoerika/portfolio-dj',
+        link2: 'https://porfolio-django.herokuapp.com/',
+        title: 'Editable Portfolio with Django',
+        text: 'Created using Django, HTML5, JS, CSS, Heroku.'
+    },
+
+
+   
     {
         id: 3,
         category: 'React',
@@ -39,35 +75,36 @@ const portfolios = [
         title: 'Gifs-search-app',
         text: 'Consuming an API with React.'
     },
+
     {
-        id: 4,
-        category: 'MERN',
-        image: blender,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
+        id: 13,
+        category: 'Js Vanilla',
+        image: clock,
+        link1: 'https://github.com/garciapulidoerika/clock-JS-Vanilla-',
+        link2: 'https://a-clock-js.netlify.app/',
+        title: 'Clock',
+        text: 'Js app'
     },
     
-    
     {
-        id: 7,
-        category: 'Django-HTML5',
-        image: camilo,
-        link1: 'https://github.com/garciapulidoerika/portfolio-dj',
-        link2: 'https://porfolio-django.herokuapp.com/',
-        title: 'Editable Portfolio with Django',
-        text: 'Created using Django, HTML5, JS, CSS, Heroku.'
+        id: 15,
+        category: 'React',
+        image: breaking,
+        link1: 'https://github.com/garciapulidoerika/breaking-bad-API',
+        link2: 'https://breaking-bad-api-quotes.netlify.app/',
+        title: 'Breaking Bad Quotes App',
+        text: 'React app consuming an API'
     },
     {
-        id: 8,
-        category: 'Django-React',
-        image: blender,
-        link1: 'https:',
-        link2: 'https:',
-        title: 'Responsive Portfolio Website',
-        text: 'Created using different technologies such as Material UI, Styled-Components and more...'
+        id: 16,
+        category: 'React',
+        image: weather,
+        link1: 'https://github.com/garciapulidoerika/Weather',
+        link2: 'https://weather-app-geolocation-react.netlify.app/',
+        title: 'Weather Geolocation App',
+        text: 'React app consuming an API'
     },
+
     {
         id: 9,
         category: 'React',
@@ -88,6 +125,19 @@ const portfolios = [
         text: 'Simple app without LocalStorage'
     },
 
+   
+    
+
+    {
+        id: 17,
+        category: 'React',
+        image: dogs,
+        link1: 'https://github.com/garciapulidoerika/dogs-API',
+        link2: 'https://dogs-app-with-api.netlify.app/',
+        title: 'Dogs APP with API',
+        text: 'React app consuming an API'
+    },
+
     {
         id: 11,
         category: 'Js Vanilla',
@@ -99,51 +149,18 @@ const portfolios = [
     },
 
     {
-        id: 12,
-        category: 'Js Vanilla',
-        image: pokemon,
-        link1: 'https://github.com/garciapulidoerika/Pokemon-game-JsVanilla-Api',
-        link2: 'https://pokemon-game-vanilla-api.netlify.app/',
-        title: 'Pokemon-Game',
-        text: 'Js app consuming API'
-    },
-    {
-        id: 13,
-        category: 'Js Vanilla',
-        image: clock,
-        link1: 'https://github.com/garciapulidoerika/clock-JS-Vanilla-',
-        link2: 'https://a-clock-js.netlify.app/',
-        title: 'Clock',
-        text: 'Js app'
-    },
-
-    {
         id: 14,
         category: 'Js Vanilla',
-        image: recipes,
-        link1: 'https://github.com/garciapulidoerika/Recipes-Js-using-API',
-        link2: 'https://recipes-consuming-api.netlify.app/',
-        title: 'Recipes App',
-        text: 'Js app consuming an API'
+        image: blender,
+        link1: 'https://github.com/garciapulidoerika/Blender-animation',
+        link2: 'https://blender-animation.netlify.app/',
+        title: 'Blender-Animation',
+        text: 'Animation with JS, HTML and CSS.'
     },
-    {
-        id: 15,
-        category: 'React',
-        image: breaking,
-        link1: 'https://github.com/garciapulidoerika/breaking-bad-API',
-        link2: 'https://breaking-bad-api-quotes.netlify.app/',
-        title: 'Breaking Bad Quotes App',
-        text: 'React app consuming an API'
-    },
-    {
-        id: 16,
-        category: 'React',
-        image: weather,
-        link1: 'https://github.com/garciapulidoerika/Weather',
-        link2: 'https://weather-app-geolocation-react.netlify.app/',
-        title: 'Weather Geolocation App',
-        text: 'React app consuming an API'
-    },
+
+
+    
+    
     
 ]
 

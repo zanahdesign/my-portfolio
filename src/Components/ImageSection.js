@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import resume from '../img/resume.jpg';
 import PrimaryButton from './PrimaryButton';
-import cv from '../img/cv.pdf'
+import cv from '../img/cv-2022-simple.pdf'
 
 function ImageSection() {
     
